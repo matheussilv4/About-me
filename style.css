@@ -1,0 +1,64 @@
+body{
+    background-color: darkorchid;
+    text-align: center;
+}
+img{
+   border: 3px solid white;
+   border-radius: 150px;
+}
+h1{
+    color: white;
+    font-family: Trebuchet MS;
+    
+    font-size: 60px;
+    margin: 1%;
+}
+h2{
+    color: white;
+    font-family: Trebuchet MS;
+    font-size: 40px;
+    margin: 20px
+}
+h3{
+    color: white;
+    font-family: Arial;
+}
+a:hover{
+    color: purple;
+    transition: 0.5s;
+}
+a{
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.background{
+    background-color: rgb(163, 81, 205);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 10px;
+}
+.background2{
+    background-color: rgb(163, 81, 205);
+    margin-top: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 10px;
+}
+button{
+    padding: 15px;
+    font-size: 25px;
+    font-family: Trebuchet MS;
+    background-color: darkorchid;
+    border: solid white 2px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: skewX(0deg);
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(163, 81, 205);
+    transition: 0.5s;
+    transform: skewX(-10deg);
+}
