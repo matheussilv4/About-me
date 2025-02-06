@@ -87,3 +87,13 @@ button:hover{
     transition: 0.5s;
     transform: skewX(-10deg);
 }
+
+@media screen and (max-width: 1161px){
+    html{
+        width: 1500px; height: 2000px;
+        padding-right: 50%;
+        transform: translateX(-13%);
+    }
+}
+    
+
