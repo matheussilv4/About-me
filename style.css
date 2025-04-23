@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+#aga{
+    text-align: center;
+    font-size: 50px;
+    color: mediumorchid;
+    font-family:'Gill Sans';
+    margin: 10px;
+    padding: 0;
+}
+#btn{
+   display: flex;
+   justify-content: center;
+   margin: 10px;
+   padding: 0;
+}
+#btn1{
+font-family: 'Gill Sans';
+margin: 10px;
+font-size: 40px;
+cursor: pointer;
+border-radius: 10px;
+padding: 10px;
+color: mediumorchid;
+background-color: black;
+border: 3px solid mediumorchid;
+transition: background-color 0.5s ease;
+}
+#btn2{
+font-family: 'Trebuchet MS';
+margin: 10px;
+font-size: 40px;
+cursor: pointer;
+border-radius: 10px;
+padding: 10px;
+color: mediumorchid;
+background-color: black;
+border: 3px solid mediumorchid;
+transition: background-color 0.5s ease;
+}
+#btn1:hover{
+    background-color: rgb(30, 30, 30);
+    color: mediumorchid;
+}
+#btn2:hover{
+    background-color: rgb(30, 30, 30);
+    color: mediumorchid;
+}
+#gato{
+    display: block;
+    margin: 0 auto;
+}
